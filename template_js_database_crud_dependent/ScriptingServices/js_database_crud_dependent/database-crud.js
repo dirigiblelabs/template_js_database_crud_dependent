@@ -48,7 +48,6 @@ function handleGetRequest(httpRequest, httpResponse, xss) {
 	var offset = xss.escapeSql(httpRequest.getParameter('offset'));
 	var sort = xss.escapeSql(httpRequest.getParameter('sort'));
 	var desc = xss.escapeSql(httpRequest.getParameter('desc'));
-	var desc = xss.escapeSql(httpRequest.getParameter('desc'));
 	var ${dependentColumn.toLowerCase()} = xss.escapeSql(httpRequest.getParameter('${dependentColumn.toLowerCase()}'));
 
 	limit = limit ? limit : 100;
