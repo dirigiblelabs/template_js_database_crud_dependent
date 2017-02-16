@@ -1,8 +1,8 @@
 {
-    "guid": "template_js_database_crud_dependent",
+    "guid":"template_js_database_crud_dependent",
     "repository": {
-        "type": "git",
-        "branch": "master",
-        "url": "https://github.com/dirigiblelabs/template_js_database_crud_dependent.git"
+        "type":"git",
+        "branch":"master",
+        "url":"https://github.com/dirigiblelabs/template_js_database_crud_dependent.git"
     }
 }
